@@ -4,3 +4,6 @@ Examples
 n = 0  ==> [1]        # [2^0]
 n = 1  ==> [1, 2]     # [2^0, 2^1]
 n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2] """
+def powers_of_two(n):
+    l=[2**i for i in range(n+1)]
+    return l
